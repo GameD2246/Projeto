@@ -1,0 +1,15 @@
+<html>: inicia 
+<Head>: Cabeçalho 
+<Body>: Corpo 
+<H1>: titulo nivel 1(tamanho da fonta) 
+<P>: parágrafo = tag orfã 
+<BR>: Quebra de linha 
+<ul>:lista não ordenada 
+<ol>: lista ordenada 
+<li>: item da lista 
+<hr>: linha = tag orfã
+<!-- Tag para titulo --> 
+<b>: negrito
+<i>: italico
+<u>: sublinhado
+<s>: riscado

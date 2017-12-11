@@ -1,0 +1,40 @@
+body{
+    background-color: yellow;
+    color: red;
+}
+
+input, textarea, select{
+    color: blue;
+}
+
+select{
+    border:none;
+}
+#endereco{
+    color: pink;
+    font-weight: bolder;
+}
+
+.sexo{
+    color: purple;
+    font-weight: bold;
+    font-size: 16bt;
+}
+
+.borda-estilizada{
+    border-style: dashed ; 
+    border-width: 2px;
+    border-radius: 12px 0px;
+    border-color: rgb(55,42,0);
+}
+
+.fonte-estilizada{
+    font-family: "comic sans ms";
+    font-size: 18pt;
+    color: chartreuse
+}
+
+textarea{
+    background-image: url(../img/tiririca.jpeg);
+    background-size: 100% 100%
+}

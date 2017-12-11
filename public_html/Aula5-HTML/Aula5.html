@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula5</title>
+        <link rel="stylesheet" href="../estilos/exerciciocss.css">
+    </head>
+    <body>
+        <form>
+            <table align="center">
+                <h1 align="center"><u>Eleição de Sala</h1>
+                
+                <tr>
+                    <td>
+                        <label for="nome">Nome</label>
+                    </td>
+                    <td>
+                        <input class="nome" type="text" name="nome" id="nome" placeholder="Seu Nome" required> 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="sobrenome">Sobrenome</label>
+                    </td>
+                    <td>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Seu Sobrenome" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idade">Idade
+                    </td>
+                    <td>
+                        <input type="number" name="idade" id="idade" min="18" max="80" required>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="sexo" required>Sexo</label>
+                    </td>
+                    <td>
+                        <select name="sexo" id="sexo">
+                            <optgroup>
+                                <option label="Masculino">Masculino</option>
+                                <option label="Feminino">Feminino</option>
+                                <option label="Outros">Outros</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bairro" required>Bairro
+                    </td>
+                    <td>
+                        <input type="text" name="bairro" id="bairro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rua">Rua
+                    </td>
+                    <td>
+                        <input type="text" name="rua" id="rua" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Numero">Numero
+                    </td>
+                    <td>
+                        <input type="text" name="Numero" id="Numero" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tel">Telefone
+                    </td>
+                    <td>
+                        <input type="text" name="tel" id="tel" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="turma">Turma</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="turma" id="turma" value="Matutino" required checked>Matutino
+                        </label><br>
+                        <label>
+                            <input type="radio" name="turma" id="turma" value="Vespertino">Vespertino
+                        </label><br>
+                        <label>
+                            <input type="radio" name="turma" id="turma" value="Noturno">Noturno
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prof" required>Profissão</label>
+                    </td>
+                    <td>
+                        <select name="prof" id="prof">
+                            <option disable select>Selecione</option>
+                            <option value="estudante">Estudante</option>
+                            <option value=desempregado"">Desempregado</option>
+                            <option value="autonomo">Autônomo</option>
+                            <option value="aposentado">Aposentado</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lider">Lider</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="lider" id="lider" value="Tiririca" required checked>Tiririca
+                        </label><br>
+                        <label>
+                            <input type="radio" name="lider" id="lider" value="Tirulipa">Tirulipa
+                        </label><br>
+                        <label>
+                            <input type="radio" name="lider" id="lider" value="Danilo Gentili">Danilo Gentili
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vice">Vice-Lider</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="vice" id="vice" value="Tiririca" required checked>Marcus Luque
+                        </label><br>
+                        <label>
+                            <input type="radio" name="vice" id="vice" value="Tirulipa">Tata Werneck
+                        </label><br>
+                        <label>
+                            <input type="radio" name="vice" id="vice" value="Danilo Gentili">Carlinhos Maia
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir" onclick="alert('Vamos Ver Quem Rouba Menos!!!');">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>

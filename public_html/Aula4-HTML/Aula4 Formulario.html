@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 4 Formulario</title>
+        <link rel="stylesheet" href="../estilos/meuestilo.css">
+    </head>
+    <body>
+        <form>
+            <table style="color:">
+                <tr>
+                    <td>
+                        <label for="nome">Nome</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome" id="nome" placeholder="Seu Nome Aqui" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço</label>
+                    </td>
+                    <td>
+                        <input type="text" name="endereco" id="endereco" placeholder="Seu Endereço Aqui" autofocus required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cidade">Cidade:</label>
+                    </td>
+                    <td>
+                        <select name="cidade" id="cidade">
+                            <option disabled selected>Escolha a Cidade</option>
+                            <optgroup label="Rio Grande do Norte">
+                                <option value="natal">Natal</option>
+                                <option value="mossoro">Mossoró</option>
+                            </optgroup>
+                            
+                            <optgroup label="Paraiba">
+                                <option value="jampa">João Pessoa</option>
+                                <option value="campina">Campina Grande</option>
+                            </optgroup>
+                            <optgroup label="Pernambuco">
+                                 <option value="recife">Recife</option>
+                                 <option value="petrolina">Petrolina</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sexo">Sexo</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input class="sexo" type="radio" name="sexo" id="sexo" value="masculino" checked>Masculino
+                        </label><br>
+                        <label>
+                            <input class="sexo" type="radio" name="sexo" id="sexo" value="feminino">Feminino
+                        </label><br>
+                        <label>
+                            <input class="sexo" type="radio" name="sexo" id="sexo" value="outro">Outro
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Interesse">Interesse</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="esporte" id="esporte" value="esporte">Esporte
+                        </label><br>
+                        <label>
+                            <input type="radio" name="filme" value="filme">Filme
+                        </label><br>
+                        <label>
+                            <input type="radio" name="noticia" value="noticia">Noticia
+                        </label><br>
+                        <label>
+                            <input type="radio" name="livro" value="livro">Livro
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="data-agendamento">Data Agendamento</label>
+                    </td>
+                    <td>
+                        <input type="date" name="data-agendamento" id="data-agendamento">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hora-agendamento">Hora Agendamento</label>
+                    </td>
+                    <td>
+                        <input class="sexo" type="time" name="hora-agendamento" id="hora-agendamento">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idade">Idade</label>
+                    </td>
+                    <td>
+                        <input type="number" name="idade" id="idade" min="18" max="70">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="satisfacao">Satisfação</label>
+                    </td>
+                    <td>
+                        <input type="range" name="satisfacao" id="satisfacao" value="5" min="0" max="5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sugestao">Sugestões</label>
+                    </td>
+                    <td>
+                        <textarea class="borda-estilizada sexo" name="sugestao" cols="50" maxlength="50" rows="10" id="sugestao" style="resize: none">
+                            
+                        </textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">
+                        <input class="fonte-estilizada" type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <input type="button" value="Exibir" onclick="alert('Botão de autodestruição!!!');">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
