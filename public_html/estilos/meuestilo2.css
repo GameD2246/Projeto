@@ -1,7 +1,6 @@
 *{
     margin: auto
 }
-
 @media only screen and (max-width: 450px) {
     #menu-topo, #categoria-produtos {
         display: none
@@ -21,7 +20,6 @@
         height: 598px;
     }
 }
-
 #pagina, #cabecalho, #rodape, #menu-topo, #corpo-pagina {
     border-style: solid;
     border-color: red;
