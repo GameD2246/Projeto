@@ -1,21 +1,63 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: auto
 }
 
-#pagina, #cabecalho, #rodape, menu-topo {
+@media only screen and (max-width: 450px) {
+    #menu-topo, #categoria-produtos {
+        display: none
+    }
+    #pagina {
+        margin: auto;
+    }
+    #pagina, #cabecalho, #rodape, #corpo-pagina {
+        border-color: red;
+        border-width: 1px;
+        width: 400px;
+    }
+    #cabecalho, #rodape {
+        height: 50px;
+    }
+    #destaques {
+        height: 598px;
+    }
+}
+
+#pagina, #cabecalho, #rodape, #menu-topo, #corpo-pagina {
     border-style: solid;
     border-color: red;
-    border-size: 1px;
+    border-width: 1px;
     width: 800px;
 }
 
-
+#pagina{
+    margin: auto;
+}
 
 #cabecalho, #rodape {
     height: 100px;
 }
 
 #menu-topo {
-    height: 150px;
+    height: 100px;
 }
+
+#corpo-pagina {
+    height: 500px;
+}
+
+#categoria-produtos, #destaques {
+    border-style: solid solid;
+    border-color: red;
+    border-width: 1px;
+    height: 498px;
+    float: left;
+}
+
+#categoria-produtos {
+    width: 149px;
+}
+
+#destaques {
+    width: 647px; 
+}
+*/
